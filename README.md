@@ -7,18 +7,22 @@ Comparison of three total movement features and statistical analysis are used fo
 Comparison of three cumulative movement features and statistical analysis are used for calving time prediction for each cow. <br> 
 
 
+
 ### Project Description
 Our system involved identifying and verifying a cow's identity including Local IDs and Global IDs from video frames.<br> 
 The system integrated advanced tracking algorithms and movement analysis to predict calving times and classify cattle as normal or abnormal based on behavioral patterns.<br> 
 Utilizing trajectory data, the system monitored cattle movement over a 12-hour period, enabling precise prediction of calving times well in advance.<br> 
 
 
+
 ### Cattle Face Detection (YOLOv8)
 Our approach focused on accurately detecting cattle faces in various lighting and environmental conditions within calving pens by removing some noises such as person or trucks.<br>
 
 
+
 ### Cattle Tracking (CTA)
 Our CTA ensured accurate and continuous tracking of individual cattle, even in scenarios involving occlusions or overlapping movements.<br>
+
 
 
 ### Cattle Global IDs Identification (ResNet50 with SVM)
@@ -28,12 +32,15 @@ The system’s ability to maintain global IDs over time allows for long-term mon
 An optimization logic within CTA aligns local track IDs with global IDs, enhancing reliability during long-term tracking and identification IDs.<br> 
 
 
+
 ### Calving Types Classification (Abnormal or Normal Classification)
 Our system classified calving types into abnormal or normal categories by analyzing movement patterns using three key features: Total Euclidean Distance (TD), Total Magnitude of Acceleration (TA), and Total Moving Average of Triangle Area (TMA).
 
 
+
 ### Calving Time Prediction
 Our system predicted calving time prediction for each cow by analyzing movement patterns using three key features: Cumulative Euclidean Distance (CD), Cumulative Magnitude of Acceleration (CA), and Cumulative Moving Average of Triangle Area (CMA).
+
 
 
 ## Table of Contents
@@ -43,8 +50,10 @@ Our system predicted calving time prediction for each cow by analyzing movement 
 - [License](#license)
 
 
+
 ## System Diagram
 ![System Diagram](https://github.com/WaiHninEaindrarMg/Automated-System-for-Calving-Time-Prediction-and-Cattle-Classification/blob/main/results/overview.png)
+
 
 
 ## Installation
@@ -66,7 +75,7 @@ pip install tensorflow==2.10.1
 
 4. Install torch, torchvision, torchaudio:
 ```
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+pip install torch torchvision torchaudio
 ```
 
 5. Install scikit-learn:
