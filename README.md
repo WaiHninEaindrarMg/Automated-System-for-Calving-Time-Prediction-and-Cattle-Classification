@@ -126,10 +126,6 @@ Run calving_types_classification_and_calving_time_prediction.ipynb
 Please see [REFERENCE.md](https://github.com/WaiHninEaindrarMg/Automated-System-for-Calving-Time-Prediction-and-Cattle-Classification/blob/main/REFERENCE.md)
 
 
-## License
-This project is licensed under the [MIT License](LICENSE.md) - see the LICENSE.md file for details.
-
-
 ## Citation
 If you use this repository in your work, please consider citing it with:
 ```
