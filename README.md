@@ -39,7 +39,7 @@ Our system predicted calving time prediction for each cow by analyzing movement 
 
 
 ## System Diagram
-![System Diagram](https://github.com/blob/main/results/overview.png)
+![System Diagram](https://github.com/WaiHninEaindrarMg/Automated-System-for-Calving-Time-Prediction-and-Cattle-Classification/blob/main/results/overview.png)
 
 
 ## Installation
@@ -86,10 +86,10 @@ pip install ipywidgets
 python detect_track_identify.py
 ```
 After running the specified file, the script automatically stores these folders and datasets:
-![Testing Folders](https://github.com/blob/main/results/testing_folders.png)
+![Testing Folders](https://github.com/WaiHninEaindrarMg/Automated-System-for-Calving-Time-Prediction-and-Cattle-Classification/blob/main/results/testing_folders.png)
 
 This is testing result of images of integrating detection, tracking and identification.
-![Result](https://github.com/blob/main/results/testing_results.gif)
+![Result](https://github.com/WaiHninEaindrarMg/Automated-System-for-Calving-Time-Prediction-and-Cattle-Classification/blob/main/results/testing_results.gif)
 
 
 2. Run this file calving_types_classification_and_calving_time_prediction.ipynb
@@ -103,7 +103,7 @@ For the calving types of classification such as abnormal or normal, we used thre
 3. Total Moving Average of Triangle Area (TMA)<br>
 After making comparisons, TD got the best accuracy. After that, TA and TMA followed. <br>
 This result analysis plot for testing accuracy for all 20 cattle. Our system classified all the cattle as abnormal or normal.<br>
-![Result](https://github.com/blob/main/results/cattle_classification.gif)<br>
+![Result](https://github.com/WaiHninEaindrarMg/Automated-System-for-Calving-Time-Prediction-and-Cattle-Classification/blob/main/results/cattle_classification.gif)<br>
 
 
 For the calving time prediction, we used three features and made a comparison.<br>
@@ -113,7 +113,7 @@ For the calving time prediction, we used three features and made a comparison.<b
 After making comparisons, CD predicted all 20 cattle of their calving times with a precision of ±6 hours,  CA predicted ± 9 hours,  CMA predicted ± 8  hours, respectively. <br>
 In this, our system can also predict the precise calving hour for each of the cow by using these three features. <br>
 This result analysis plot for testing accuracy for all 20 cattle. Our system classified all the cattle as abnormal or normal.<br>
-![Result](https://github.com/blob/main/results/calving_time_prediction.gif)<br>
+![Result](https://github.com/WaiHninEaindrarMg/Automated-System-for-Calving-Time-Prediction-and-Cattle-Classification/blob/main/results/calving_time_prediction.gif)<br>
 
 
 ##
