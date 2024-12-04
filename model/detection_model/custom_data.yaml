@@ -1,6 +1,0 @@
-train: ./train_data/images/train/  
-val: ./train_data/images/val/ 
-test:  ./test_data/images/ 
-
-nc: 1
-names: ['1']
