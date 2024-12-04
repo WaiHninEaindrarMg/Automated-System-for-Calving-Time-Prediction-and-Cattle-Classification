@@ -1,6 +1,6 @@
-# References and Credits
+# References
 
-[[GitHub]()]
+[[GitHub](https://github.com/WaiHninEaindrarMg/Automated-System-for-Calving-Time-Prediction-and-Cattle-Classification/)]
 
 This work is based on the following literature:
 
